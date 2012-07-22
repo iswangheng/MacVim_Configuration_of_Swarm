@@ -1,0 +1,12 @@
+###过滤的文件夹
+/file
+/view
+
+###过滤的文件
+.DS_Store
+
+###一些说明###
+##使用Mac的话系统会自动产生.DS_Store文件，以及一些私密的文件（例如哟给你vimprojects管理的项目列表）
+##这些文件不需要push到github，所以要建立.gitignore来过滤他们
+##具体使用说明自行google.gitignore用法，或者参考http://f2e.us/wiki/git-ignore.html#!/
+##############
