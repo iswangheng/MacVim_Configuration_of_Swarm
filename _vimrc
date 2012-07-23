@@ -12,7 +12,8 @@ set gfn=Monaco:h12
 set number
 "状态行显示光标位置
 set ruler
-
+"mute the error sound
+set noerrorbells
 
 
 """"""""""这里的设置是为了Python ...."""""""
