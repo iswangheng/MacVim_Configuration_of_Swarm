@@ -43,11 +43,11 @@ let g:pydiction_menu_height=20
 
 
 "行宽度字符限制
-set textwidth=80
+"set textwidth=80
 "英文单词在换行时不被截断
-set linebreak
+"set linebreak
 "自动换行
-set wrap
+"set wrap
 
 "高亮显示搜索结果
 set hlsearch
