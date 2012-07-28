@@ -2,6 +2,10 @@
 set nocompatible
 set history=500
 
+
+"pathogen config
+call pathogen#infect()
+
 "开启语法高亮
 syntax on
 "选择color scheme
@@ -37,7 +41,7 @@ autocmd filetype python set expandtab
 let g:pydiction_location='~/.vim/vimfiles/pydiction/complete-dict'  
 let g:pydiction_menu_height=20  
 "打开vim中python的自动完成(未知原因，暂时不能用)
-"autocmd FileType python set omnifunc=pythoncomplete
+autocmd FileType python set omnifunc=pythoncomplete
 """""""""'以上设置是为了Python ...."""""""
 
 
